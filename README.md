@@ -1,3 +1,5 @@
 # machine_translation_with_lstms
 
-![](images/architecture.jpg)
+![](images/architecture.JPG)
+
+![](images/file.JPG)
