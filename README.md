@@ -7,6 +7,8 @@ The architecture could be understood by the below image -
 
 ![](images/architecture.JPG)
 
-Training data is a 2-column dataset
+The training data is a 2-column dataset - column 1 containing words/phrase in input language (English) and column 2 containing translations of those in column 1 in the output language (German). Since column 2 is the exact translation of column 1, this takes into account all the grammar rules and patterns.
+The dataset has been obtained from - http://www.manythings.org/anki/.
 
 ![](images/file.JPG)
+
