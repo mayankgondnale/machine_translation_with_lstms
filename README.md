@@ -66,3 +66,10 @@ Google Translation of model output - Get out!
    -	Perfecting the pronunciations of words of foreign language by translating and later hearing
    -	Generating subtitles for a movie
 
+**Challenges -**
+1. Overfitting - Can be avoided by training on more data. This model was trained on only 10K rows of the total 150K rows
+2. Offline Speech Transcription - Can be avoided by training another model solely for this purpose
+
+**Limiations -**
+1. Only finite length of sentences can be taken as input - Can be avoided by training on longer sentences/sequences
+2. No definite stopping criterion for speech recognition - Currently stops when a long pause is taken
