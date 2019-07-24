@@ -18,3 +18,49 @@ Speech Recognition - https://pypi.org/project/SpeechRecognition/
 PyAudio (only needed when microphone is used) - https://pypi.org/project/PyAudio/
 
 Keras (with TensorFlow backend) - https://keras.io/ 
+
+For instant Speech Recognition, Google Speech API was used. Information on how to use Google Speech API can be found here - https://www.geeksforgeeks.org/speech-recognition-in-python-using-google-speech-api/
+
+**Used parameters -**
+
+Batch size – 64
+
+Epochs – 25
+
+Hidden Neurons – 256
+
+Number of Training Samples – 10000
+
+Optimizer – RMSProp
+
+Train:Test split – 80:20
+
+**Sample Output -**
+Input - I am dumb
+
+Model Output - Ich bin sehr gewannt.
+
+Google Translation of model output - I am very well known
+
+
+Input - Go away!
+
+Model Output - Verschwinde!
+
+Google Translation of model output - Get out!
+
+
+**Sample Applications -**
+
+1.	Only Speech Recognition and transcription into text
+  -	Dictating to a system and letting it transcribe into text instead to typing
+  -	Video or Audio captions for deaf and hearing-impaired people
+
+2.	Only translation of input text given using keyboard
+  -	Trying to learn a new language by reading the translated sentences
+  -	Helpful to travelers in a foreign country 
+
+3.	Speech Recognition and Translation of input speech
+  -	Perfecting the pronunciations of words of foreign language by translating and later hearing
+  -	Generating subtitles for a movie
+
