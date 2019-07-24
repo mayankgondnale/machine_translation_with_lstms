@@ -36,11 +36,13 @@ Optimizer – RMSProp
 Train:Test split – 80:20
 
 **Sample Output -**
+
 Input - I am dumb
 
 Model Output - Ich bin sehr gewannt.
 
 Google Translation of model output - I am very well known
+
 
 
 Input - Go away!
@@ -52,15 +54,15 @@ Google Translation of model output - Get out!
 
 **Sample Applications -**
 
-1.	Only Speech Recognition and transcription into text
+1. Only Speech Recognition and transcription into text
   -	Dictating to a system and letting it transcribe into text instead to typing
   -	Video or Audio captions for deaf and hearing-impaired people
 
-2.	Only translation of input text given using keyboard
+2. Only translation of input text given using keyboard
   -	Trying to learn a new language by reading the translated sentences
   -	Helpful to travelers in a foreign country 
 
-3.	Speech Recognition and Translation of input speech
+3. Speech Recognition and Translation of input speech
   -	Perfecting the pronunciations of words of foreign language by translating and later hearing
   -	Generating subtitles for a movie
 
