@@ -52,7 +52,6 @@ Google Translation of model output - Get out!
 
 
 **Sample Applications -**
-
 1. Only Speech Recognition and transcription into text
    - Dictating to a system and letting it transcribe into text instead to typing
    - Video or Audio captions for deaf and hearing-impaired people
@@ -70,6 +69,6 @@ Google Translation of model output - Get out!
 1. Overfitting - Can be avoided by training on more data. This model was trained on only 10K rows of the total 150K rows
 2. Offline Speech Transcription - Can be avoided by training another model solely for this purpose
 
-**Limiations -**
+**Limitations -**
 1. Only finite length of sentences can be taken as input - Can be avoided by training on longer sentences/sequences
 2. No definite stopping criterion for speech recognition - Currently stops when a long pause is taken
