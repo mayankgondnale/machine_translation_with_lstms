@@ -72,3 +72,10 @@ Google Translation of model output - Get out!
 **Limitations -**
 1. Only finite length of sentences can be taken as input - Can be avoided by training on longer sentences/sequences
 2. No definite stopping criterion for speech recognition - Currently stops when a long pause is taken
+
+
+**Source Code and References -**
+1. [Sequence to Sequence Learning KERAS] (https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html)
+2. [Sequence to sequence RNN models] (https://github.com/farizrahman4u/seq2seq)
+3. [Why RNNs for Machine Translation] (https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa)
+4. [How to develop Encode-Decoder Network for Sequence to Sequence Models] (https://machinelearningmastery.com/develop-encoder-decoder-model-sequence-sequence-prediction-keras/)
